@@ -19,6 +19,7 @@ const { createApp } = Vue;
 const list = {
     data: function () {
         return {
+            newBookPath : "",
             books: [
                 {
                   text: "Le notti bianche, Fëdor Dostoevskij" ,
@@ -41,8 +42,18 @@ const list = {
                   done: false         
                 },
             ]
-            }
+        }
     },
+    methods: {
+        //per aggiungere un libro
+        booksAdd(){
+            let newBook = {
+                text: this.newBookPath,
+                done: false
+            };    
+            this.books.push(newBook);   
+        }
 
+    }
 } 
 createApp(list).mount('#app')

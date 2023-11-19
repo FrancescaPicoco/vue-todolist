@@ -17,3 +17,10 @@ h2{
     background-color: rgb(77, 77, 107);
     padding: 2rem;
 }
+#newbook{
+    background-color: slategray;
+}
+button{
+    margin-left: 0.5rem;
+    color: rgb(77,77,107) ;
+}

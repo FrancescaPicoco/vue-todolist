@@ -19,6 +19,8 @@
                    {{books[i].text}}
                 </li>
             </ul>
+            <input type="text" id="newbook" v-model="newBookPath">
+            <button @click="booksAdd()">inserisci</button>
         </div>                
     </div>   
     <script src="main.js"></script>
