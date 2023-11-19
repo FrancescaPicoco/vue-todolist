@@ -52,6 +52,9 @@ const list = {
                 done: false
             };    
             this.books.push(newBook);   
+        },
+        booksDelete(i){
+            this.books.splice(i,1)
         }
 
     }

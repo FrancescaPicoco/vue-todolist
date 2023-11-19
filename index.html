@@ -17,6 +17,7 @@
             <ul>
                 <li v-for= "(percorso, i) in books">
                    {{books[i].text}}
+                   <button id="delete" @click="booksDelete()">BIN</button>
                 </li>
             </ul>
             <input type="text" id="newbook" v-model="newBookPath">
