@@ -7,9 +7,7 @@ body{
     font-family: 'Roboto' , sans-serif;
     background-color:rgb(37, 40, 42);   
 }
-h2{
-    color: cadetblue;
-}
+
 #container{   
     width: 70vw;
     height: 70vh;
@@ -20,7 +18,20 @@ h2{
 #newbook{
     background-color: slategray;
 }
-button{
+#inserisci{
     margin-left: 0.5rem;
     color: rgb(77,77,107) ;
+}
+#delete{
+    border-radius: 30px;
+    border: none;
+    color: rgb(77,77,107);
+    padding: 0 0.2rem;
+    font-size: 15px;
+}
+.fatto{
+    text-decoration: line-through;
+}
+li{
+    margin: 1rem 0;
 }

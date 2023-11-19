@@ -31,11 +31,11 @@ const list = {
                 },
                 {
                   text: "L'eleganza del riccio, Muriel Barbery" ,
-                  done: false       
+                  done: true       
                 },
                 {
                   text: "Così parlò Zarathustra, Nietzsche" ,
-                  done: false         
+                  done: true         
                 },
                 {
                   text: "1984, George Orwell" ,

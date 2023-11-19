@@ -16,12 +16,12 @@
             <h1>LISTA LIBRI DA LEGGERE</h1>
             <ul>
                 <li v-for= "(percorso, i) in books">
-                   {{books[i].text}}
-                   <button id="delete" @click="booksDelete(i)">BIN</button>
+                    <button id="delete" @click="booksDelete(i)">&#128465;</button>
+                   {{books[i].text}}                  
                 </li>
             </ul>
             <input type="text" id="newbook" v-model="newBookPath">
-            <button @click="booksAdd()">inserisci</button>
+            <button @click="booksAdd()" id="inserisci">inserisci</button>
         </div>                
     </div>   
     <script src="main.js"></script>
