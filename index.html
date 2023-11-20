@@ -16,7 +16,7 @@
             <h1>LISTA LIBRI DA LEGGERE</h1>
             <ul>
                 <li v-for= "(percorso, i) in books">
-                    <button id="delete" @click="booksDelete(i)">&#128465;</button>
+                    <button @click="booksDelete(i)">&#128465;</button>
                    {{books[i].text}}                  
                 </li>
             </ul>
